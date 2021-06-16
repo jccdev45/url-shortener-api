@@ -22,7 +22,7 @@ export const ShortenerForm = ({
           value={linkValue}
           className={`${
             error ? "ring-4 ring-secondary-red" : ""
-          } w-full p-4 rounded lg:w-full focus:outline-none`}
+          } w-full p-5 rounded-lg text-lg lg:w-full focus:outline-none`}
         ></input>
         <small className="absolute w-full h-2 mt-2 mb-4 italic font-semibold text-left -bottom-9 lg:left-4 text-secondary-red lg:transform lg:scale-105">
           {error}
@@ -32,7 +32,7 @@ export const ShortenerForm = ({
         disabled={isLoading}
         className={`${
           !isLoading ? "btn" : "bg-neutral-darkBlue text-white"
-        } w-full p-3 mx-4 mt-12 text-lg font-bold tracking-wider rounded focus:outline-white lg:my-0 lg:p-4 lg:w-1/6`}
+        } w-full p-3 mx-4 mt-12 text-lg font-bold rounded-lg focus:outline-white lg:my-0 lg:py-5 lg:ml-7 lg:mr-2 lg:w-1/5`}
       >
         {isLoading ? "Loading..." : "Shorten it!"}
       </button>

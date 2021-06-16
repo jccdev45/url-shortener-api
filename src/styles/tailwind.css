@@ -4,7 +4,7 @@
 
 @layer components {
   .navlink {
-    @apply w-full m-4 text-lg font-bold text-center lg:text-sm text-neutral-gray hover:text-black;
+    @apply w-full m-4 text-lg font-bold text-center lg:text-sm text-neutral-grayViolet hover:text-black;
   }
   .btn {
     @apply text-white bg-primary-cyan;

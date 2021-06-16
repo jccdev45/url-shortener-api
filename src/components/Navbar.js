@@ -5,7 +5,7 @@ export const Navbar = () => {
   const [isMenu, setIsMenu] = useState(false);
 
   return (
-    <header className="relative top-0 z-20 flex flex-wrap items-center justify-between px-8 pt-12 pb-8 lg:flex-nowrap lg:py-0 lg:px-10">
+    <header className="relative top-0 z-20 flex flex-wrap items-center justify-between px-8 pt-12 pb-8 lg:flex-nowrap lg:pt-2 lg:px-9">
       <a href="/" className="mr-5 text-4xl font-extrabold tracking-wide">
         <svg xmlns="http://www.w3.org/2000/svg" width="121" height="33">
           <path

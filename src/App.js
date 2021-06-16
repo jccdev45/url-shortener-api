@@ -65,12 +65,6 @@ function App() {
   };
 
   const renderLinks = () => {
-    if (!isLoading && !links.length)
-      return (
-        <h1 className="my-8 text-2xl font-bold text-center">
-          Shorten a link to get started
-        </h1>
-      );
     return links.map((link) => <ShortenedLink key={link.id} link={link} />);
   };
 
@@ -96,7 +90,7 @@ function App() {
           )}
           {renderLinks()}
 
-          <div className="p-2 mt-20 mb-16 text-center lg:mx-auto lg:w-1/2 lg:mb-12">
+          <div className="p-2 mt-20 mb-16 text-center lg:mx-auto lg:w-1/2 lg:mt-24 lg:mb-12">
             <h2 className="my-4 text-3xl font-extrabold transform scale-105 lg:text-4xl">
               Advanced Statistics
             </h2>
@@ -106,7 +100,7 @@ function App() {
             </p>
           </div>
 
-          <div className="flex flex-col mt-16 mb-10 lg:my-24 lg:h-96 lg:flex-row">
+          <div className="flex flex-col mt-16 mb-10 lg:mb-24 lg:mt-32 lg:h-96 lg:flex-row">
             {/* first */}
             <div className="relative z-30 flex flex-col px-8 py-10 my-12 bg-white rounded lg:mt-0 lg:mb-24">
               <div className="absolute grid w-24 h-24 transform -translate-x-1/2 rounded-full left-1/2 -top-12 place-items-center bg-primary-darkViolet lg:left-20">

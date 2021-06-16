@@ -1,9 +1,9 @@
 export const Footer = () => {
   return (
-    <footer className="flex flex-col items-center py-12 bg-neutral-darkViolet lg:flex-row lg:justify-around lg:items-start lg:px-24 lg:pt-20 lg:pb-16">
+    <footer className="flex flex-col items-center py-12 bg-neutral-darkViolet lg:flex-row lg:justify-evenly lg:items-start lg:pl-40 lg:pr-36 lg:pt-20 lg:pb-16">
       <a
         href="/"
-        className="text-3xl font-bold text-white transform scale-110 mb-14 lg:mr-36 lg:mb-0"
+        className="text-3xl font-semibold text-white transform scale-110 mb-14 lg:mr-16 lg:text-4xl lg:scale-100 lg:mb-0"
       >
         Shortly
       </a>
@@ -14,13 +14,13 @@ export const Footer = () => {
           <li className="footer-link">Branded Links</li>
           <li className="footer-link">Analytics</li>
         </ul>
-        <ul className="footer-link-container">
+        <ul className="pl-2 footer-link-container">
           <h2 className="footer-link-header">Resources</h2>
           <li className="footer-link">Blog</li>
           <li className="footer-link">Developers</li>
           <li className="footer-link">Support</li>
         </ul>
-        <ul className="footer-link-container">
+        <ul className="pl-2 footer-link-container">
           <h2 className="footer-link-header">Company</h2>
           <li className="footer-link">About</li>
           <li className="footer-link">Our Team</li>

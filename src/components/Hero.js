@@ -1,11 +1,11 @@
 export const Hero = () => {
   return (
-    <div className="relative flex flex-col lg:justify-between mb-36 lg:items-center lg:flex-row lg:pt-32 lg:mb-64">
+    <div className="relative flex flex-col lg:justify-between mb-36 lg:items-center lg:flex-row lg:pt-32 lg:mb-56">
       <div className="flex flex-col order-2 w-full px-8 -mt-3 text-center md:w-2/3 md:mx-auto lg:order-1 lg:text-left lg:w-7/12 lg:pl-8">
         <h1 className="mt-0 mb-8 text-4xl font-extrabold text-gray-800 transform scale-125 lg:m-0 lg:text-7xl lg:scale-100">
           More than just shorter links
         </h1>
-        <h2 className="text-xl tracking-wide lg:w-5/6 lg:mb-8 lg:mt-4 text-neutral-gray">
+        <h2 className="text-xl tracking-wide lg:w-5/6 lg:mb-8 lg:mt-4 text-neutral-grayViolet">
           Build your brand’s recognition and get detailed insights on how your
           links are performing.
         </h2>
