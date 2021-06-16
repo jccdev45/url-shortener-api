@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .navlink {
+    @apply w-full m-4 text-lg font-bold text-center lg:text-sm text-neutral-gray hover:text-black;
+  }
+  .btn {
+    @apply text-white bg-primary-cyan;
+  }
+  .footer-link {
+    @apply my-1 transition-colors duration-200 ease-in-out cursor-pointer text-neutral-gray hover:text-primary-cyan;
+  }
+  .footer-link-container {
+    @apply flex flex-col items-center mt-2 mb-12 md:w-1/4 md:text-left md:mt-0 lg:my-0 lg:items-start;
+  }
+  .footer-link-header {
+    @apply mb-3 font-bold text-white;
+  }
+}
